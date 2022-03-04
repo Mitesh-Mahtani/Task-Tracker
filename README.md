@@ -25,4 +25,14 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-# Task-Tracker
+
+# Running the Task Tracker
+
+Prerequisites - Have node, angular and json-server installed.
+To run the project start by Running angular inside the project directory
+
+`ng serve`
+
+Then start the fake-backend (json server) with the database.
+
+`npm run server`
